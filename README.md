@@ -44,7 +44,7 @@ SR FLIPFLOP:
 
 VERILOG CODE:
 ```
-  module srff(s,r,clk,rst,q);
+module srff(s,r,clk,rst,q);
 input s,r,clk,rst;
 output reg q;
 always@(posedge clk)
@@ -64,7 +64,6 @@ end
 endmodule
 ```
 OUTPUT:
-
 ![WhatsApp Image 2024-04-21 at 21 59 36_656aad89](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-4/assets/153823077/bccfdd47-7ba5-456b-b801-dbdb8d6c5ed9)
 
 **LOGIC DIAGRAM**:
@@ -74,6 +73,7 @@ JK FLIPFLOP:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
 
 VERILOG CODE:
+
 ```
 module jkff(j,k,clk,rst,q);
 input j,k,clk,rst;
@@ -101,7 +101,6 @@ OUTPUT:
 **LOGIC DIAGRAM**:
 
 T FLIPFLOP:
-
 ![WhatsApp Image 2024-04-21 at 22 10 53_14847a7e](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-4/assets/153823077/8bc95f4f-1fe8-48cc-88af-8053133c4baa)
 
  VERILOG CODE:
@@ -127,7 +126,6 @@ OUTPUT:
 **LOGIC DIAGRAM**:
 
 D FLIPFLOP:
-
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
 
 VERILOG CODE:
@@ -145,7 +143,6 @@ end
 endmodule
 ```
 OUTPUT:
-
 ![WhatsApp Image 2024-04-21 at 22 13 54_03065976](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-4/assets/153823077/a5d846ec-7d92-4ce4-aa26-cc1b2900d9b9)
 
 **LOGIC DIAGRAM**:
@@ -174,7 +171,6 @@ endmodule
 ```
 
 OUTPUT:
-
 ![WhatsApp Image 2024-04-21 at 22 18 11_5efc2bd9](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-4/assets/153823077/177d1396-87a2-41fd-97fd-91e7c13664e9)
 
 MOD 10 COUNTER:
@@ -195,7 +191,6 @@ endmodule
 ```
 
 OUTPUT:
-
  ![WhatsApp Image 2024-04-21 at 22 24 08_2d49fe10](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-4/assets/153823077/b19a433c-b5b5-4c08-b540-bda690301bc1)
 
 
@@ -233,7 +228,6 @@ tff tf4(q[3],q[2],rst);
 endmodule
 ```
 OUTPUT:
-
 ![WhatsApp Image 2024-04-21 at 22 23 39_59f72acd](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-4/assets/153823077/78b535c3-02e5-4dee-a6c3-fdbf2203d08f)
 
 
