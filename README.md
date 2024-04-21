@@ -132,7 +132,6 @@ OUTPUT:
 
 D FLIPFLOP:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
-
 VERILOG CODE:
 ```
 module dff(d,clk,rst,q);
