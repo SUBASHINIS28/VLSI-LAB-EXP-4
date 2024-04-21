@@ -106,6 +106,7 @@ OUTPUT:
 **LOGIC DIAGRAM**:
 
 T FLIPFLOP:
+
 ![WhatsApp Image 2024-04-21 at 22 10 53_14847a7e](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-4/assets/153823077/8bc95f4f-1fe8-48cc-88af-8053133c4baa)
 
  VERILOG CODE:
@@ -131,8 +132,11 @@ OUTPUT:
 **LOGIC DIAGRAM**:
 
 D FLIPFLOP:
+
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
+
 VERILOG CODE:
+
 ```
 module dff(d,clk,rst,q);
 input d,clk,rst;
@@ -232,6 +236,7 @@ tff tf4(q[3],q[2],rst);
 endmodule
 ```
 OUTPUT:
+
 ![WhatsApp Image 2024-04-21 at 22 23 39_59f72acd](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-4/assets/153823077/78b535c3-02e5-4dee-a6c3-fdbf2203d08f)
 
 
